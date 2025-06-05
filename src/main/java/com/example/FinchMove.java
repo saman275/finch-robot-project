@@ -11,34 +11,35 @@ public class FinchMove {
         
     Finch myfinch = new Finch();
 
-    for(int i = 0; i < 2; i++){
+    for(int i = 0; i < 1; i++){
     
-        myfinch.setMove("F", 5, 9);
+        myfinch.setMove("F", 5, 5);
         myfinch.setTurn("R", 90, 1.5);
-        myfinch.setMove("F", 5, 1.5);
+        myfinch.setMove("F", 5, 5);
         myfinch.setTurn("L", 90, 1.5);
-        myfinch.setMove("F", 5, 1.5);
+        myfinch.setMove("F", 5, 5);
         myfinch.setTurn("L", 90, 1.5);
         
-        myfinch.setMove("F", 5, 1.5);
+        myfinch.setMove("F", 5, 5);
         myfinch.setTurn("R", 90, 1.5);
-        myfinch.setMove("F", 5, 9);
+        myfinch.setMove("F", 5, 5);
         myfinch.setTurn("L", 90, 1.5);
-        myfinch.setMove("F", 5, 1.5);
+        myfinch.setMove("F", 5, 5);
 
-        myfinch.setTurn("L", 90, 1.5);
-        myfinch.setMove("F", 5, 9);
-        myfinch.setTurn("R", 90, 1.5);
-        myfinch.setMove("F", 12, 10);
+        myfinch.setTurn("L", 95, 1.5);
+        myfinch.setMove("F", 5, 5);
+        myfinch.setTurn("R", 92, 1.5);
+        myfinch.setMove("F", 12, 5);
         myfinch.setTurn("L", 90, 1.5);
 
-        myfinch.setMove("F", 5, 1.5);
+        myfinch.setMove("F", 5, 5);
         myfinch.setTurn("L", 90, 1.5);
-        myfinch.setMove("F", 12, 10);
-        myfinch.setTurn("R", 90, 1.5);
-        myfinch.setMove("F", 5, 1.5);
+        myfinch.setMove("F", 12, 5);
+        myfinch.setTurn("R", 91, 1.5);
+        myfinch.setMove("F", 5, 5);
+        myfinch.setTurn("L", 96, 1.5);
+        myfinch.setMove("F", 5.25, 5);
         myfinch.setTurn("L", 90, 1.5);
-        myfinch.setMove("F", 5, 1.5);
 
     }
 
