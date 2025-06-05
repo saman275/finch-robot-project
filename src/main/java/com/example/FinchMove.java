@@ -10,9 +10,10 @@ public class FinchMove {
     public static void main(String[] args) {
         
     Finch myfinch = new Finch();
+    //* runs the code one time then stops */
 
     for(int i = 0; i < 1; i++){
-    
+       
         myfinch.setMove("F", 5, 5);
         myfinch.setTurn("R", 90, 1.5);
         myfinch.setMove("F", 5, 5);
@@ -50,7 +51,7 @@ public class FinchMove {
         
         
         
-        
+        //* stops the whole code */
         myfinch.stopAll();
         myfinch.disconnect();
     }    
